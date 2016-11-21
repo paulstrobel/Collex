@@ -4,8 +4,8 @@
     <description>
         Collex Education - Anwendung fuer den Google Play Store
     </description>
-    <author email="support@phonegap.com" href="http://phonegap.com">
-        PhoneGap Team
+    <author email="info@collex.education" href="http://collex.education">
+        Paul Strobel
     </author>
     <content src="index.html" />
     <!--<preference name="DisallowOverscroll" value="true" />
