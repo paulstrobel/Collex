@@ -15,6 +15,7 @@
     </author>
     <content src="index.html" />
     <icon src="icon.png" />
+    <access origin="*" />
     <accress origin="http://collex.education" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
