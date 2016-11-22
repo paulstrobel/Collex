@@ -34,7 +34,7 @@
     <feature name="InAppBrowser">
         <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
     </feature>
-    <gap:plugin name="org.apache.cordova.inappbrowser" version="0.2.4" />
+    <!--<gap:plugin name="org.apache.cordova.inappbrowser" version="0.2.4" />-->
 
     <!--<feature name="SplashScreen" >
         <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
