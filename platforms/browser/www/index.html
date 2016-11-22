@@ -11,7 +11,9 @@
 </head>
 
 <body>
-    <script type="text/javascript" src="cordova.js"></script>
+	<script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
     Collex
     <script type="text/javascript">
     	document.addEventListener("deviceready", onDeviceReady, false);
@@ -19,6 +21,7 @@
 		    window.open = cordova.InAppBrowser.open;
 		}
     	var ref = cordova.InAppBrowser.open('http://collex.education', '_blank', 'location=no');
+    	ref.show();
     	//var ref = window.open('http://collex.education', '_blank', 'location=no');
         //window.location="http://collex.education/";
     </script>
